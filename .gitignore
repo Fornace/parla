@@ -1,0 +1,11 @@
+build/
+DerivedData/
+*.xcarchive
+*.ipa
+*.dSYM.zip
+.DS_Store
+Parla.xcodeproj/xcuserdata/
+Parla.xcodeproj/project.xcworkspace/xcuserdata/
+*.xcuserstate
+.DS_Store
+task.md

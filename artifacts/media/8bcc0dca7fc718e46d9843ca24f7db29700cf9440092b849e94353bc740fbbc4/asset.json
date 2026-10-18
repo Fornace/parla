@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "assetId": "sha256:8bcc0dca7fc718e46d9843ca24f7db29700cf9440092b849e94353bc740fbbc4",
+  "byteSize": 1906956,
+  "mimeType": "image/png",
+  "kind": "image",
+  "canonicalPath": "artifacts/media/8bcc0dca7fc718e46d9843ca24f7db29700cf9440092b849e94353bc740fbbc4/original.png",
+  "name": "prompt.png",
+  "availability": "available",
+  "width": 3456,
+  "height": 2234,
+  "provenance": [
+    {
+      "ingress": "vision",
+      "capturedAt": "2026-10-18T10:04:43.774Z",
+      "sourcePath": "/Users/ffrappo/works/scratch/app-05-lang/prompt.png"
+    }
+  ]
+}

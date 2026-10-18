@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "assetId": "sha256:645db18e1190d9a4aa9fcbacb9cab274d904b9695b6abccdd4693394c9b59d0c",
+  "byteSize": 253996,
+  "mimeType": "image/png",
+  "kind": "image",
+  "canonicalPath": "artifacts/media/645db18e1190d9a4aa9fcbacb9cab274d904b9695b6abccdd4693394c9b59d0c/original.png",
+  "name": "iphone-69-home.png",
+  "availability": "available",
+  "width": 1206,
+  "height": 2622,
+  "provenance": [
+    {
+      "ingress": "vision",
+      "capturedAt": "2026-10-18T10:33:28.481Z",
+      "sourcePath": "/Users/ffrappo/works/scratch/app-05-lang/iphone-69-home.png"
+    }
+  ]
+}

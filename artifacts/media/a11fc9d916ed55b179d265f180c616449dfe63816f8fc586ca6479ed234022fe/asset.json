@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "assetId": "sha256:a11fc9d916ed55b179d265f180c616449dfe63816f8fc586ca6479ed234022fe",
+  "byteSize": 321522,
+  "mimeType": "image/png",
+  "kind": "image",
+  "canonicalPath": "artifacts/media/a11fc9d916ed55b179d265f180c616449dfe63816f8fc586ca6479ed234022fe/original.png",
+  "name": "ss5.png",
+  "availability": "available",
+  "width": 1480,
+  "height": 1250,
+  "provenance": [
+    {
+      "ingress": "vision",
+      "capturedAt": "2026-10-18T09:47:07.364Z",
+      "sourcePath": "/Users/ffrappo/works/scratch/app-05-lang/ss5.png"
+    }
+  ]
+}

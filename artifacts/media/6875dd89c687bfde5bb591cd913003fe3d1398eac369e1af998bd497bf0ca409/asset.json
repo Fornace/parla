@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "assetId": "sha256:6875dd89c687bfde5bb591cd913003fe3d1398eac369e1af998bd497bf0ca409",
+  "byteSize": 1171780,
+  "mimeType": "image/png",
+  "kind": "image",
+  "canonicalPath": "artifacts/media/6875dd89c687bfde5bb591cd913003fe3d1398eac369e1af998bd497bf0ca409/original.png",
+  "name": "candidate-6.png",
+  "availability": "available",
+  "width": 1254,
+  "height": 1254,
+  "provenance": [
+    {
+      "ingress": "image_edit",
+      "capturedAt": "2026-10-18T09:58:49.965Z",
+      "sourcePath": "/Users/ffrappo/works/scratch/ds-fleet-host/cx/app-05-lang/artifacts/images/app-icon/candidate-6.png"
+    },
+    {
+      "ingress": "vision",
+      "capturedAt": "2026-10-18T09:58:58.845Z",
+      "sourcePath": "/Users/ffrappo/works/scratch/ds-fleet-host/cx/app-05-lang/artifacts/images/app-icon/candidate-6.png"
+    }
+  ]
+}

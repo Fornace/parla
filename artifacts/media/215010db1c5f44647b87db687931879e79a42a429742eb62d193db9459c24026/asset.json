@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "assetId": "sha256:215010db1c5f44647b87db687931879e79a42a429742eb62d193db9459c24026",
+  "byteSize": 252768,
+  "mimeType": "image/png",
+  "kind": "image",
+  "canonicalPath": "artifacts/media/215010db1c5f44647b87db687931879e79a42a429742eb62d193db9459c24026/original.png",
+  "name": "sim-home2.png",
+  "availability": "available",
+  "width": 1206,
+  "height": 2622,
+  "provenance": [
+    {
+      "ingress": "vision",
+      "capturedAt": "2026-10-18T09:53:07.014Z",
+      "sourcePath": "/Users/ffrappo/works/scratch/app-05-lang/sim-home2.png"
+    }
+  ]
+}

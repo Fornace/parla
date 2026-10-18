@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "assetId": "sha256:e5631f4a3aa7e02ed2ecdc4942d2299c1cd7b40d805abff3b58f8e94dc0c760d",
+  "byteSize": 144441,
+  "mimeType": "image/png",
+  "kind": "image",
+  "canonicalPath": "artifacts/media/e5631f4a3aa7e02ed2ecdc4942d2299c1cd7b40d805abff3b58f8e94dc0c760d/original.png",
+  "name": "full3.png",
+  "availability": "available",
+  "width": 3456,
+  "height": 2234,
+  "provenance": [
+    {
+      "ingress": "vision",
+      "capturedAt": "2026-10-18T10:37:31.043Z",
+      "sourcePath": "/Users/ffrappo/works/scratch/app-05-lang/full3.png"
+    }
+  ]
+}

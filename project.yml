@@ -1,0 +1,72 @@
+name: Parla
+
+options:
+  bundleIdPrefix: app.fornace
+  createIntermediateGroups: true
+  developmentLanguage: en
+  xcodeVersion: "27.2"
+  deploymentTarget:
+    iOS: "26.0"
+    macOS: "26.0"
+
+settings:
+  base:
+    SWIFT_VERSION: "6.0"
+    MARKETING_VERSION: "1.0"
+    CURRENT_PROJECT_VERSION: "1"
+    DEVELOPMENT_TEAM: "2V6YSU4HFB"
+    CODE_SIGN_STYLE: Automatic
+    SWIFT_STRICT_CONCURRENCY: complete
+    ENABLE_USER_SCRIPT_SANDBOXING: YES
+    DEAD_CODE_STRIPPING: YES
+    GENERATE_INFOPLIST_FILE: NO
+    ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME: AccentColor
+
+targets:
+  Parla:
+    type: application
+    supportedDestinations: [iOS, macOS]
+    sources:
+      - path: Parla
+      - path: Shared
+    dependencies:
+      - target: ParlaWidget
+        embed: true
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: app.fornace.parla
+        PRODUCT_NAME: Parla
+        INFOPLIST_FILE: Parla/Resources/Info.plist
+        CODE_SIGN_ENTITLEMENTS: Parla/Resources/Parla.entitlements
+        ASSETCATALOG_COMPILER_APPICON_NAME: AppIcon
+        TARGETED_DEVICE_FAMILY: "1,2"
+        SUPPORTS_MACCATALYST: NO
+        ENABLE_PREVIEWS: YES
+        APP_INTENTS_METADATA_PATH: $(BUILT_PRODUCTS_DIR)/Parla.app/Contents/Resources
+      configFiles: []
+
+  ParlaWidget:
+    type: app-extension
+    supportedDestinations: [iOS, macOS]
+    sources:
+      - path: ParlaWidget
+      - path: Shared
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: app.fornace.parla.widget
+        PRODUCT_NAME: ParlaWidget
+        INFOPLIST_FILE: ParlaWidget/Info.plist
+        CODE_SIGN_ENTITLEMENTS: ParlaWidget/ParlaWidget.entitlements
+        SKIP_INSTALL: YES
+        APPLICATION_EXTENSION_API_ONLY: YES
+
+schemes:
+  Parla:
+    build:
+      targets:
+        Parla: all
+        ParlaWidget: all
+    run:
+      config: Debug
+    archive:
+      config: Release

@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "assetId": "sha256:2ed3894455ca723eb7e848405342b0fc7629f3fa90b6827d96ff84bf7c439136",
+  "byteSize": 468399,
+  "mimeType": "image/png",
+  "kind": "image",
+  "canonicalPath": "artifacts/media/2ed3894455ca723eb7e848405342b0fc7629f3fa90b6827d96ff84bf7c439136/original.png",
+  "name": "safari-asc2.png",
+  "availability": "available",
+  "width": 3228,
+  "height": 2024,
+  "provenance": [
+    {
+      "ingress": "vision",
+      "capturedAt": "2026-10-18T10:00:24.719Z",
+      "sourcePath": "/Users/ffrappo/works/scratch/app-05-lang/safari-asc2.png"
+    }
+  ]
+}

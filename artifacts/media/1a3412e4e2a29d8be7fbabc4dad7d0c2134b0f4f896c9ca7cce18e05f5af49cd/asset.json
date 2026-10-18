@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "assetId": "sha256:1a3412e4e2a29d8be7fbabc4dad7d0c2134b0f4f896c9ca7cce18e05f5af49cd",
+  "byteSize": 205325,
+  "mimeType": "image/png",
+  "kind": "image",
+  "canonicalPath": "artifacts/media/1a3412e4e2a29d8be7fbabc4dad7d0c2134b0f4f896c9ca7cce18e05f5af49cd/original.png",
+  "name": "mac-final-home.png",
+  "availability": "available",
+  "width": 1520,
+  "height": 1640,
+  "provenance": [
+    {
+      "ingress": "vision",
+      "capturedAt": "2026-10-18T10:38:50.192Z",
+      "sourcePath": "/Users/ffrappo/works/scratch/app-05-lang/mac-final-home.png"
+    },
+    {
+      "ingress": "vision",
+      "capturedAt": "2026-10-18T10:38:50.272Z",
+      "sourcePath": "/Users/ffrappo/works/scratch/app-05-lang/mac-final-settings.png"
+    },
+    {
+      "ingress": "vision",
+      "capturedAt": "2026-10-18T10:40:02.570Z",
+      "sourcePath": "/Users/ffrappo/works/scratch/app-05-lang/mac-final-home.png"
+    }
+  ]
+}

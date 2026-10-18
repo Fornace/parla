@@ -1,0 +1,20 @@
+{
+  "derivativeId": "sha256:ea48792a107e896365df3462ce1c3154f5d423f223794f356c97ae66f974de94",
+  "assetId": "sha256:ea48792a107e896365df3462ce1c3154f5d423f223794f356c97ae66f974de94",
+  "purpose": "inspection",
+  "width": 1520,
+  "height": 1640,
+  "mimeType": "image/png",
+  "producer": "fornace.media.v1/image-worker",
+  "transform": {
+    "mode": "overview",
+    "originalWidth": 1520,
+    "originalHeight": 1640,
+    "wasReencoded": false,
+    "wasResized": false,
+    "profile": "Native original; no declared provider resize limits",
+    "consumer": "nested-vision",
+    "path": "/Users/ffrappo/works/scratch/ds-fleet-host/cx/app-05-lang/artifacts/media/ea48792a107e896365df3462ce1c3154f5d423f223794f356c97ae66f974de94/derivatives/02ad05ba3e5b74db79965aac6a5ae251bc23aec730bb5f9dc3db5c30158c40d7.png",
+    "specification": "02ad05ba3e5b74db79965aac6a5ae251bc23aec730bb5f9dc3db5c30158c40d7"
+  }
+}

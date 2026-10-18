@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "assetId": "sha256:1b7ad3e24ddf9bbdc09b8ba85ca6013ca04b1dc70174abbfba892c15686175f1",
+  "byteSize": 3978,
+  "mimeType": "image/png",
+  "kind": "image",
+  "canonicalPath": "artifacts/media/1b7ad3e24ddf9bbdc09b8ba85ca6013ca04b1dc70174abbfba892c15686175f1/original.png",
+  "name": "control.png",
+  "availability": "available",
+  "width": 720,
+  "height": 400,
+  "provenance": [
+    {
+      "ingress": "vision",
+      "capturedAt": "2026-10-18T09:41:27.317Z",
+      "sourcePath": "/Users/ffrappo/works/scratch/app-05-lang/control.png"
+    }
+  ]
+}

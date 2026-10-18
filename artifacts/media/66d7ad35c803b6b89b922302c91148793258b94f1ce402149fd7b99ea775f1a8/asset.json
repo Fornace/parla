@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "assetId": "sha256:66d7ad35c803b6b89b922302c91148793258b94f1ce402149fd7b99ea775f1a8",
+  "byteSize": 236995,
+  "mimeType": "image/png",
+  "kind": "image",
+  "canonicalPath": "artifacts/media/66d7ad35c803b6b89b922302c91148793258b94f1ce402149fd7b99ea775f1a8/original.png",
+  "name": "sim-p1.png",
+  "availability": "available",
+  "width": 1206,
+  "height": 2622,
+  "provenance": [
+    {
+      "ingress": "vision",
+      "capturedAt": "2026-10-18T10:22:15.684Z",
+      "sourcePath": "/Users/ffrappo/works/scratch/app-05-lang/sim-p1.png"
+    }
+  ]
+}
