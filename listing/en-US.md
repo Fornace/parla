@@ -94,11 +94,18 @@ no network client.
 
 ## Screenshots
 
-| Slot | File |
-| --- | --- |
-| iPhone 6.9 inch | `screenshots/iphone-home.png`, `screenshots/iphone-room.png` |
-| Mac | `screenshots/mac-home.png`, `screenshots/mac-settings.png` |
+| Screen | File | Size |
+| --- | --- | --- |
+| iPhone home | `screenshots/iphone-home.png` | 1206 x 2622 |
+| Mac home | `screenshots/mac-home.png` | 1520 x 1640 |
+| Mac settings | `screenshots/mac-settings.png` | 1520 x 1640 |
 
-The talk screen and the debrief need a machine where Apple Intelligence is
-running. `docs/STATE.md` records why they are missing here and the exact
-commands to capture them.
+These are real captures of the shipping UI, taken while the on-device model was
+unavailable on this Mac, so they show the state a user sees in that case. The
+talk screen and the debrief need Apple Intelligence running;
+`docs/STATE.md` records why they are missing and the exact commands to capture
+them.
+
+App Store Connect wants 1320 x 2868 for the 6.9 inch slot. The iPhone capture
+here comes from an iPhone 18 Pro simulator (1206 x 2622), so recapture on a
+6.9 inch device before submission.
