@@ -68,9 +68,7 @@ final class Note {
         kind = record.kind
     }
 
-    var kindLabel: String {
-        NoteRecord(order: order, youSaid: "", trySaying: "", why: "", kind: kind).kindLabel
-    }
+    var kindLabel: String { NoteKind.label(for: kind) }
 }
 
 /// A phrase worth carrying out of a conversation.

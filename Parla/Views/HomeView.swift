@@ -217,7 +217,7 @@ struct HomeView: View {
                                 .font(.system(size: 15))
                                 .foregroundStyle(Theme.ink(scheme))
                                 .lineLimit(2)
-                            Text(note.kindLabel)
+                            Text(NoteKind.label(for: note.kind))
                                 .font(.label(11, weight: .medium))
                                 .foregroundStyle(Theme.inkSoft(scheme))
                         } else {

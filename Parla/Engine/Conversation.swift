@@ -125,6 +125,7 @@ final class Conversation {
             await speaker.say(reply, language: language)
             guard !isFinishing else { return }
             if wrapping {
+                turnTask = nil
                 await end()
             } else {
                 phase = .listening

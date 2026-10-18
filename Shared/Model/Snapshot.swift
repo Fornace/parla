@@ -27,14 +27,22 @@ struct NoteRecord: Codable, Hashable, Sendable, Identifiable {
     var trySaying: String
     var why: String
     var kind: String
+}
 
-    var kindLabel: String {
-        switch kind {
-        case "grammar": "Grammar"
-        case "wordChoice": "Word choice"
-        case "naturalness": "Sounds foreign"
-        default: "Wording"
+/// The three kinds of change the debrief can point at.
+enum NoteKind: String, Sendable {
+    case grammar, wordChoice, naturalness
+
+    var label: String {
+        switch self {
+        case .grammar: "Grammar"
+        case .wordChoice: "Word choice"
+        case .naturalness: "Sounds foreign"
         }
+    }
+
+    static func label(for raw: String) -> String {
+        NoteKind(rawValue: raw)?.label ?? "Wording"
     }
 }
 

@@ -133,7 +133,7 @@ private struct NoteCard: View {
                     .fixedSize(horizontal: false, vertical: true)
 
                 HStack(alignment: .firstTextBaseline, spacing: 6) {
-                    Text(note.kindLabel.uppercased())
+                    Text(NoteKind.label(for: note.kind).uppercased())
                         .font(.label(9, weight: .semibold))
                         .tracking(1.1)
                         .foregroundStyle(Theme.accentInk(scheme))
