@@ -39,15 +39,6 @@ struct PracticeLanguage: Identifiable, Hashable, Codable, Sendable {
 enum Level: String, Codable, CaseIterable, Sendable {
     case starting, finding, steady, sure
 
-    var title: String {
-        switch self {
-        case .starting: "Starting out"
-        case .finding: "Finding words"
-        case .steady: "Steady"
-        case .sure: "Sure-footed"
-        }
-    }
-
     /// Plain word for the badge on a room card.
     var badge: String {
         switch self {
