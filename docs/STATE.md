@@ -52,7 +52,10 @@ Consequence: the conversation screen and the debrief have never rendered with
 real model output on this machine. Everything that does not need the model was
 exercised for real: the app launches, the store opens, the gate blocks the call
 to action, the widget extension compiles and ships inside the app, and the
-screens recorded in `listing/screenshots/` are real captures.
+screens recorded in `listing/screenshots/` are real captures: the iPhone home
+screen and the Mac window. The Mac settings screen renders (it was inspected on
+screen while tuning the level chips) but a second later the shared machine's
+display slept and the window capture failed, so it is not in the repository.
 
 Capture the two missing screens on a machine with Apple Intelligence running:
 

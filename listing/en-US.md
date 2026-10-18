@@ -98,7 +98,6 @@ no network client.
 | --- | --- | --- |
 | iPhone home | `screenshots/iphone-home.png` | 1206 x 2622 |
 | Mac home | `screenshots/mac-home.png` | 1520 x 1640 |
-| Mac settings | `screenshots/mac-settings.png` | 1520 x 1640 |
 
 These are real captures of the shipping UI, taken while the on-device model was
 unavailable on this Mac, so they show the state a user sees in that case. The
