@@ -46,14 +46,14 @@ Everything runs on your device with Apple Intelligence. Your voice is
 transcribed locally, the conversation is generated locally, and nothing is ever
 uploaded. There is no account and no subscription.
 
-Fourteen languages: Spanish, French, Italian, German, Portuguese, Dutch,
+Fifteen languages: Spanish, French, Italian, German, Portuguese, Dutch,
 Swedish, Danish, Norwegian, Turkish, Japanese, Korean, Chinese, Vietnamese and
 English. Four levels, from first words to fluent.
 
 A widget keeps the streak and the last phrase where you can see them, and Siri
 or Shortcuts can open a room hands free.
 
-Parla needs a device that supports Apple Intelligence, with it turned on.
+Parla runs on any device with Apple Intelligence turned on.
 
 ## Keywords (100 characters)
 
@@ -77,8 +77,8 @@ app container.
 
 Parla holds a spoken conversation with the on-device system language model
 (Foundation Models). It requires Apple Intelligence to be enabled and the model
-downloaded; the app shows a specific screen for each unavailable state, so a
-reviewer without Apple Intelligence will see an explanation rather than a crash.
+downloaded; the app shows a specific screen for each availability state, so a
+reviewer without Apple Intelligence sees exactly what to turn on.
 
 To test: open the app, tap Start talking, allow microphone and speech
 recognition, and answer in the target language. Tap the close button to end, and

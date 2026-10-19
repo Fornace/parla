@@ -42,7 +42,9 @@ transcribed locally and never uploaded.
 ## Requirements
 
 - iOS 26 or later, macOS 26 or later.
-- Runs on Apple Intelligence devices, with the on-device model downloaded.
+- Apple Intelligence turned on, with the on-device model downloaded. Each
+  availability state (`deviceNotEligible`, `appleIntelligenceNotEnabled`,
+  `modelNotReady`) has its own screen that tells the user what to turn on.
 - Speaking: microphone and speech recognition permission.
 
 ## Build

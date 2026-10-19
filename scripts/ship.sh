@@ -4,18 +4,7 @@
 #   scripts/ship.sh              archive, export a distribution IPA, stop there
 #   scripts/ship.sh --upload     ... then create the app record if needed and upload
 #
-# Needs, in this order:
-#   1. Xcode with the Fornace team signed in (it is: automatic signing already
-#      created the profiles and registered the App Group).
-#   2. The App Store Connect API key, for the upload half:
-#        source ~/.agent_credentials/apple/appstore-connect.env
-#      That file points APP_STORE_CONNECT_KEY_FILEPATH at
-#      ~/.agent_credentials/apple/AuthKey_K6R4NZ46Z5.p8, which is NOT on this
-#      Mac yet. Without it the archive and export still work.
-#
-# App record creation cannot be done with the API key alone: App Store Connect
-# has no create-app endpoint. It runs through a web session (`asc web apps
-# create`), which needs an Apple Account sign-in the first time.
+# The upload half reads the App Store Connect API key named in the team env file.
 
 set -euo pipefail
 
