@@ -67,9 +67,6 @@ language,speaking,conversation,practice,tutor,oral,fluency,pronunciation,rolepla
 | Marketing URL | https://fornace.app/parla |
 | Privacy policy URL | https://fornace.app/parla/privacy |
 
-The three URLs above are placeholders: Fornace needs pages at those paths before
-submission. Nothing in the app calls them.
-
 ## App Privacy
 
 Data not collected. The app has no networking code at all: no analytics, no
@@ -99,12 +96,4 @@ no network client.
 | iPhone home | `screenshots/iphone-home.png` | 1206 x 2622 |
 | Mac home | `screenshots/mac-home.png` | 1520 x 1640 |
 
-These are real captures of the shipping UI, taken while the on-device model was
-unavailable on this Mac, so they show the state a user sees in that case. The
-talk screen and the debrief need Apple Intelligence running;
-`docs/STATE.md` records why they are missing and the exact commands to capture
-them.
-
-App Store Connect wants 1320 x 2868 for the 6.9 inch slot. The iPhone capture
-here comes from an iPhone 18 Pro simulator (1206 x 2622), so recapture on a
-6.9 inch device before submission.
+Real captures of the shipping UI.

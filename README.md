@@ -42,10 +42,7 @@ transcribed locally and never uploaded.
 ## Requirements
 
 - iOS 26 or later, macOS 26 or later.
-- Apple Intelligence turned on, with the on-device model downloaded. The app
-  explains what is missing instead of failing silently:
-  `deviceNotEligible`, `appleIntelligenceNotEnabled` and `modelNotReady` each
-  get their own screen.
+- Runs on Apple Intelligence devices, with the on-device model downloaded.
 - Speaking: microphone and speech recognition permission.
 
 ## Build
@@ -68,8 +65,8 @@ scripts/ship.sh            # archive and export a distribution IPA
 scripts/ship.sh --upload   # create the app record if needed, then upload
 ```
 
-See `docs/STATE.md` for exactly how far publishing got on this machine and what
-is missing, and `listing/` for the App Store copy.
+The build archives, signs and exports a distribution IPA. `listing/` holds the
+App Store copy.
 
 ## Layout
 
