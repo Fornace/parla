@@ -84,18 +84,14 @@ if [ -z "${APP_STORE_CONNECT_KEY_FILEPATH:-}" ]; then
   # shellcheck disable=SC1091
   source "$HOME/.agent_credentials/apple/appstore-connect.env"
 fi
-KEY_FILE="${APP_STORE_CONNECT_KEY_FILEPATH:-$HOME/.agent_credentials/apple/AuthKey_K6R4NZ46Z5.p8}"
+KEY_FILE="${APP_STORE_CONNECT_KEY_FILEPATH:?set in appstore-connect.env}"
 export ASC_KEY_ID="${APP_STORE_CONNECT_KEY_ID}"
 export ASC_ISSUER_ID="${APP_STORE_CONNECT_ISSUER_ID}"
 export ASC_PRIVATE_KEY_PATH="$KEY_FILE"
 
 if [ ! -f "$KEY_FILE" ]; then
   cat >&2 <<MISSING
-The App Store Connect API key is missing: $KEY_FILE
-
-Download it once from App Store Connect > Users and Access > Integrations >
-Team Keys (key id $APP_STORE_CONNECT_KEY_ID) and save it there. It is the only
-blocker left for the upload.
+App Store Connect API key not found at $KEY_FILE
 MISSING
   exit 1
 fi
